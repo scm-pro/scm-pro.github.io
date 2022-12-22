@@ -1,0 +1,315 @@
+
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+ }
+ 
+
+    
+    
+    
+    /* .navbar li {
+      height: auto;
+      width: 135.8px; 
+      float: left;  
+      text-align: center; 
+      list-style: none;   
+      padding: 0;
+      background-color: #3399FF;
+      border-radius: 18px;
+      margin-top: 0;
+      margin-right:50px;
+      margin-left: 110px;
+      padding-left: 10px;
+      padding-right: 50px;
+      margin-left: -15px;
+      
+                  
+      
+      
+      } */
+      .navbar a{							
+        padding: 15px 0;  
+        
+        text-decoration: underline; 
+        color: white; 
+        display:block;
+        }
+        .navbar li:hover, a:hover {
+          background-color:#3399FF;
+          border-radius: 18px;
+          
+          }
+          .navbar li ul{
+            display: none;
+            height: auto;									
+            margin: 0; 
+            padding: 0; 
+            padding-left: 0;
+            }
+            
+            .navbar li:hover ul{
+            display: block;
+          }
+            
+                
+                
+                #wrap{
+                  width: 100%; 
+                  height: 50px; 
+                  margin: 5px;
+                  z-index: 1; 
+                  position: relative; 
+                  background-color:#ffffff00;
+                  padding-right: 5px;
+                  font-size: 22px;
+                  letter-spacing: 0.rem;
+                  padding-left: 15px;
+                 
+                  
+                 
+                 
+                 
+                  
+                  }
+                  .navbar{
+                    height: auto;
+                    padding: 5px;
+                    margin: 0;
+                    position: relative; 
+
+                   
+                    
+                    
+                    
+                    }
+                    .navbar li {
+                      height: auto;
+                      width: 135.8px; 
+                      float: left;  
+                      text-align: center; 
+                      list-style: none;   
+                      padding: 0;
+                      background-color: #0277bd;
+                      border-radius: 18px;
+                      margin-top: 0;
+                      margin-right:50px;
+                      margin-left: 55px;
+                      padding-left: 55px;
+                      padding-right: 74px;
+                      font-size:18px ;      
+                     text-align: center;
+                     text-decoration: underline;
+                    
+                     
+                                    
+                      
+                      
+                                  
+                      
+                      
+                      }
+                      .navbar a{							
+                        padding: 15px 0;  
+                        
+                        text-decoration: none; 
+                        color: white; 
+                        display:block;
+                       transition: all 1s ease;
+                        
+                        }
+                        .navbar li:hover, a:hover {
+                          background-color:#0277bd;
+                          border-radius: 18px;
+                          transition: all 0.9s ease;
+                          transition: 350ms;
+                          transform: scale(1.02);
+                          
+                          
+                          
+
+                         
+                          
+                          }
+                          .navbar li ul{
+                            display: none;
+                            height: auto;									
+                            margin: 0; 
+                            padding: 0; 
+                            padding-left: 0;
+                            list-style:disk -15px;
+                            text-align: justify;
+                            text-decoration: none;
+                            
+                            }
+                            
+                            .navbar li:hover ul{
+                            display: inline-block;
+                            padding-left: 0px;
+                              padding-right:0px;
+                              opacity: 1;
+                              transition: all 1s ease;
+                              transition: 350ms;
+                              
+                              
+                             
+                            }
+                            .navbar li ul li{
+                              background-color: #0277bd;
+                              margin: 5px;
+                              padding-left: 0px;
+                              padding-right:15px ;
+                              text-decoration: none;
+                              font-weight: 700;
+                              white-space:nowrap ;
+                              /* word-break: break-all; */
+                               list-style:disc;
+                               position: relative;
+                               line-height: 2px;
+                               
+                              }
+                              
+                                .navbar li ul li a:hover{
+                                background-color: gray00;
+                                transition: all 0.9s ease;
+                                text-decoration: none;
+                                width: auto;
+                                padding-left: 0px;
+                                padding-right: 0px;
+                                
+                                transform: scale(0.9);
+                                
+                              
+                              }
+                              
+                                .photo{
+                                  background-repeat: no-repeat;
+                                  background-size: cover;
+                                  width: 100%;
+                                  height: auto;
+                                  /* overflow:hidden; */
+                                  position: fixed;
+                                  top: 0;
+                                  left: 0;
+                                  z-index: 0;
+                                  overflow-x: hidden;
+                                  overflow-y: hidden;
+                                
+                
+                                }
+                                *{
+                                  margin: 0;
+                                  padding: 0;
+                                  
+                                 
+                                }
+                                .photo img{
+                                  width: 100%;
+                
+                                }
+                                nav{
+                                  position: relative;
+                                  z-index: 1;
+                                  display: block;
+                                  margin: 0;
+                                }
+                                .text{
+                                  text-align:right;
+                                  margin-top: 190px;
+                                  word-wrap:break-word;
+                                  letter-spacing: 0.1rem;
+                                  margin-right: 80px;
+                                  font-size: 28px;
+                                  z-index: 0;
+                                  position:relative;
+                                  color: white;
+                                  line-height: 70px;
+                                 
+                                  
+                                  
+                                }
+                                #more{
+                                  
+                                  position: relative;
+                                  letter-spacing: 0.1rem;
+                                  text-align: right;
+                                  margin-right: 290px;
+                                  border-radius: 18px;                                 
+                                  text-decoration: none;
+                                  list-style: none;
+                                  margin-top: 20px; 
+                                  transition: 400ms;
+                                  
+                                  
+                                  
+                                }
+                                #more a{
+                                  
+                                  border-radius: 25px;
+                                  z-index: 1;
+                                  color: white;
+                                  text-decoration: none;
+                                
+                                  background-color: red;
+                                  padding-right: 60px;
+                                  padding-left: 41px;
+                                  padding-top:10px ;
+                                  padding-bottom:12px ;
+                                  font-size: 25px;
+                                  transition: 400ms;
+                                 
+                                  
+                                }
+                                #more li:hover a:hover{
+                                  color: white;
+                                  background-color: rgb(241, 112, 112);
+                                  /* z-index: 1; */
+                                  
+                                  margin-top: 20px;
+                                  font-size: 25px;
+                                  border-radius: 25px;
+                                  padding-right:60px;
+                                  padding-left: 41px;
+                                  /* transition: 400ms; */
+                                  
+                                  transform: scale(0.5);
+                                  
+                                  
+                                 
+                                }
+                                #more ul:hover a:hover{
+                                  color: white;
+                                  background-color: red;
+                                  z-index: 1;
+                                  padding-right: 60px;
+                                  padding-left: 41px;
+                                  padding-top:10px ;
+                                  padding-bottom: 12px;
+                                  margin-top: 20px;
+                                  font-size: 25px;
+                                  border-radius: 25px;
+                                  
+                                 
+                                  
+                                }
+                                #more a:hover{
+                                  transition: 400ms;
+                          transform: scale(0.8);
+
+                                }
+                                
+                ul, li {
+                  padding: 0;
+                  margin: 0;
+                }
+                
+              
+                span{
+                  margin-right: 160px;
+                }
+              #del{
+                margin-right: 210px;
+              }
+              
